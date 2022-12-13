@@ -15,9 +15,8 @@ const getPrice = async () => {
       const arrayCurrencyDolar = await responseDolar.json();
       const arrayCurrencyEuro = await responseEuro.json();
 
-      lastDolar = arrayCurrencyDolar.serie[30].valor
-      lastEuro = arrayCurrencyEuro.serie[30].valor
-       console.log(lastDolar)
+      lastDolar = arrayCurrencyDolar.serie[0].valor
+      lastEuro = arrayCurrencyEuro.serie[0].valor
 
       button.addEventListener("click", () => {
         if (moneyIn.value > 0) {
