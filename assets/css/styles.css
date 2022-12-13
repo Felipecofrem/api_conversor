@@ -1,0 +1,46 @@
+main {
+    background-color: black;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    background-color: grey;
+    margin: 2rem;
+    width: 300px;
+    align-items: center;
+}
+
+select {
+    margin-bottom: 1rem;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    width: 200px;
+}
+input {
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-bottom: 1rem;
+}
+
+h5 {
+    color: green;
+}
